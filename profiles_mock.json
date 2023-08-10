@@ -1,0 +1,125 @@
+{
+	"profiles": [{
+			"id": 1,
+			"name": "Lantos",
+			"pfp": "https://pbs.twimg.com/profile_images/1529771536315559936/anThWLk-_400x400.jpg",
+			"bio": "bull curiosity/empathy , bear stagnation. Sometimes post Cringeworthy memes optimistic cautious e/acc"
+		},
+		{
+			"id": 2,
+			"name": "goth",
+			"pfp": "https://pbs.twimg.com/profile_images/1638627985581576192/3cvbWfNI_400x400.jpg",
+			"bio": "VP of Witchcraft and Propaganda @ 𝕏 | Magic @ 21e8 | tweets from the void -redacted"
+		},
+		{
+			"id": 3,
+			"name": "des",
+			"pfp": "https://pbs.twimg.com/profile_images/1665303788713037824/-W1EaA7d_400x400.jpg",
+			"bio": "outcome independent, lindy technology brother"
+		},
+		{
+			"id": 4,
+			"name": "llama",
+			"bio": "relax bro, it’s already priced in",
+			"pfp": "https://pbs.twimg.com/profile_images/1608313271224012800/l_H1NO22_400x400.jpg"
+
+		}
+	],
+	"tweets": [{
+			"id": 1,
+			"authorId": 1,
+			"content": "It's simple. \n We just move liquidity from the LP to our pocket. \n https://pbs.twimg.com/media/F3KxAeJWEAAO1N0?format=jpg&name=medium"
+		},
+		{
+			"id": 2,
+			"authorId": 1,
+			"content": "It's quite simple really, it's just thermodynamics  \n \"sips\" mmmhm \n https://pbs.twimg.com/media/F3GWMeZWUAAaw8H?format=jpg&name=medium"
+		},
+		{
+			"id": 3,
+			"authorId": 1,
+			"content": "everyone wants room temperature superconductors but I have a room temperature IQ"
+		},
+		{
+			"id": 4,
+			"authorId": 1,
+			"content": "Not your keys not your crypto\n Not you corpus not your tensors"
+		},
+		{
+			"id": 5,
+			"authorId": 2,
+			"content": "Engagement low? Watch this \n words words words words words words words words words words"
+		},
+		{
+			"id": 6,
+			"authorId": 2,
+			"content": "Okay here’s what we’re going to do: Panic."
+		},
+		{
+			"id": 7,
+			"authorId": 2,
+			"content": "We are selling markets to willing buyers at the current fair market price."
+		},
+		{
+			"id": 8,
+			"authorId": 2,
+			"content": "Date-me Doc? You mean your cognitive security on a silver platter?"
+		},
+		{
+			"id": 9,
+			"authorId": 2,
+			"content": "You’re laughing? Bitcoin is controlled by a GitHub repo, and you’re laughing?"
+		},
+		{
+			"id": 10,
+			"authorId": 3,
+			"content": "this year i’m going to get cracked at linear algebra"
+		},
+		{
+			"id": 11,
+			"authorId": 3,
+			"content": "i hate being 5'12"
+		},
+		{
+			"id": 12,
+			"authorId": 3,
+			"content": "working in security sucks. you become you family's resident phishing text/email expert, and all of your friends think you're schizophrenic"
+		},
+		{
+			"id": 13,
+			"authorId": 3,
+			"content": "libgen is a beautiful name for a child"
+		},
+		{
+			"id": 14,
+			"authorId": 3,
+			"content": "i still have no idea why anyone would want to use javascript/typescript on the backend"
+		},
+		{
+			"id": 15,
+			"authorId": 4,
+			"content": "pov it’s already priced in"
+		},
+		{
+			"id": 16,
+			"authorId": 4,
+			"content": "omg haha are we live? Haha I didn't even know omg haha"
+
+		},
+		{
+			"id": 17,
+			"authorId": 4,
+			"content": "- wake up \n            - coffee. doordash \n            - I am become awake, destroyer of sleepyheads send tweet\n            - oppenheimer screening. imax. 70mm (4th viewing)\n            - dinner. doordash\n            -  drop two big ones (melatonin 5mg)\n            - I am become sleepy, enjoyer of sleepyheads send tweet\n            - sleep\n   "
+		},
+		{
+			"id": 18,
+			"authorId": 4,
+			"content": "these are my quants"
+		},
+		{
+			"id": 19,
+			"authorId": 4,
+			"content": "If you have less than 7 dreams per night you have scarcity mindset and ngmi \n Sorry I don’t make the rules"
+		}
+	]
+}

@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Alice",
+        "tweets": [
+            {
+                "author": "Alice",
+                "content": "Going for a hike this weekend."
+            },
+            {
+                "author": "Alice",
+                "content": "I think cats are better than dogs."
+            },
+            {
+                "author": "Alice",
+                "content": "Planning to start a new course on photography."
+            },
+            {
+                "author": "Alice",
+                "content": "Going for a hike this weekend."
+            },
+            {
+                "author": "Alice",
+                "content": "Reading a great book on philosophy."
+            }
+        ]
+    },
+    {
+        "name": "Bob",
+        "tweets": [
+            {
+                "author": "Bob",
+                "content": "Going for a hike this weekend."
+            },
+            {
+                "author": "Bob",
+                "content": "Traveling to Paris next month."
+            },
+            {
+                "author": "Bob",
+                "content": "My new recipe for pasta is a hit!"
+            },
+            {
+                "author": "Bob",
+                "content": "My new recipe for pasta is a hit!"
+            }
+        ]
+    },
+    {
+        "name": "Charlie",
+        "tweets": [
+            {
+                "author": "Charlie",
+                "content": "Planning to start a new course on photography."
+            },
+            {
+                "author": "Charlie",
+                "content": "My new recipe for pasta is a hit!"
+            }
+        ]
+    },
+    {
+        "name": "Diana",
+        "tweets": [
+            {
+                "author": "Diana",
+                "content": "Attending a conference on AI."
+            },
+            {
+                "author": "Diana",
+                "content": "Reading a great book on philosophy."
+            },
+            {
+                "author": "Diana",
+                "content": "Reading a great book on philosophy."
+            }
+        ]
+    },
+    {
+        "name": "Edward",
+        "tweets": [
+            {
+                "author": "Edward",
+                "content": "The weather today is amazing."
+            },
+            {
+                "author": "Edward",
+                "content": "Reading a great book on philosophy."
+            },
+            {
+                "author": "Edward",
+                "content": "I love the new album by Coldplay."
+            },
+            {
+                "author": "Edward",
+                "content": "Reading a great book on philosophy."
+            }
+        ]
+    },
+    {
+        "name": "Fiona",
+        "tweets": [
+            {
+                "author": "Fiona",
+                "content": "Attending a conference on AI."
+            }
+        ]
+    },
+    {
+        "name": "George",
+        "tweets": [
+            {
+                "author": "George",
+                "content": "Just had the best coffee ever!"
+            },
+            {
+                "author": "George",
+                "content": "I think cats are better than dogs."
+            },
+            {
+                "author": "George",
+                "content": "Planning to start a new course on photography."
+            },
+            {
+                "author": "George",
+                "content": "Planning to start a new course on photography."
+            },
+            {
+                "author": "George",
+                "content": "Traveling to Paris next month."
+            }
+        ]
+    },
+    {
+        "name": "Hannah",
+        "tweets": [
+            {
+                "author": "Hannah",
+                "content": "I think cats are better than dogs."
+            },
+            {
+                "author": "Hannah",
+                "content": "My new recipe for pasta is a hit!"
+            },
+            {
+                "author": "Hannah",
+                "content": "Going for a hike this weekend."
+            },
+            {
+                "author": "Hannah",
+                "content": "Going for a hike this weekend."
+            },
+            {
+                "author": "Hannah",
+                "content": "I love the new album by Coldplay."
+            }
+        ]
+    }
+]
