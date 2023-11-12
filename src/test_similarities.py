@@ -8,34 +8,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import TruncatedSVD
 import PIL.Image
 import urllib.request
+import matplotlib.patheffects as path_effects
 
 import numpy as np
 import pandas as pd
-
-
-import os
-import tweepy
-
-# Read the credentials from environment variables
-API_KEY = os.environ.get("TWITTER_API_KEY")
-API_SECRET_KEY = os.environ.get("TWITTER_API_SECRET_KEY")
-ACCESS_TOKEN = os.environ.get("TWITTER_ACCESS_TOKEN")
-ACCESS_TOKEN_SECRET = os.environ.get("TWITTER_ACCESS_TOKEN_SECRET")
-
-
-
-# Set up the tweepy authorization
-auth = tweepy.OAuthHandler(API_KEY, API_SECRET_KEY)
-auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-
-
-
-# Create the tweepy API object
-api = tweepy.API(auth)
-
-# Fetch user information by username
-user = api.get_user(screen_name="USERNAME")
-
 
 # Define the data structures
 class Tweet:
@@ -86,6 +62,8 @@ for profile_data in loaded_data["profiles"]:
 # Extracting tweet content from the updated Tweet objects
 documents = [tweet.content for tweet in tweets]
 
+print(documents[:5])
+
 vectorizer = CountVectorizer()
 transformer = TfidfTransformer()
 
@@ -98,10 +76,9 @@ dense_X = X.toarray()
 # Using TfidfTransformer to convert term frequency matrix to tf-idf representation
 tfidf_matrix = transformer.fit_transform(dense_X)
 
-
-
 # Number of topics/components
-num_topics = 2
+num_topics = 2 
+
 
 # Apply LSA (i.e., Truncated SVD)
 lsa_model = TruncatedSVD(n_components=num_topics, random_state=42)
@@ -109,14 +86,22 @@ lsa_topic_matrix = lsa_model.fit_transform(tfidf_matrix)
 
 lsa_topic_matrix.shape
 
+
 # Compute aggregated LSA representation for each person
 aggregated_lsa = {}
 for person_id, person in persons.items():
     tweet_indices = [tweet.id - 1 for tweet in person.tweets]  # -1 since index starts from 0
     aggregated_lsa[person_id] = np.mean(lsa_topic_matrix[tweet_indices], axis=0)
 
+
+print("aggregated_lsa", aggregated_lsa)
+
 # Compute cosine similarity between the aggregated representations
 similarity_matrix = cosine_similarity(list(aggregated_lsa.values()))
+
+
+print("similarity_matrix", similarity_matrix)
+
 
 # Constructing the graph
 G = nx.Graph()
@@ -127,6 +112,7 @@ for i, person1 in enumerate(persons.values()):
 
 # Plot the graph
 plt.figure(figsize=(10, 7))
+
 pos = nx.spring_layout(G)
 labels = nx.get_edge_attributes(G, 'weight')
 rounded_labels = {k: round(v, 2) for k, v in labels.items()}  # Round the weights for better visualization
@@ -139,7 +125,7 @@ def plot_node_with_image(node, position, image_data, ax, node_size):
         position[1] - node_size,
         position[1] + node_size
     ))
-    return im
+    return im 
 
 # Use the customized node plotting
 ax = plt.gca()
